@@ -98,7 +98,7 @@ def editor_node(state: BlogState):
 
 # ==========================================
 # CONDITIONAL ROUTING EDGES
-# ==========================================
+# ========================================== 
 
 def route_research_review(state: BlogState) -> str:
     """If feedback exists, route back to researcher_node; otherwise move to writer_node."""
@@ -153,6 +153,6 @@ workflow.add_conditional_edges(
 
 workflow.add_edge("editor", END)
 
-# 3. Compile with Checkpointer (Required for Interrupts)
+
 checkpointer = InMemorySaver()
 app = workflow.compile(checkpointer=checkpointer)
