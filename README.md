@@ -1,6 +1,6 @@
-# 🚀 21 Days of GenAI with Python
+# 🚀 Days of GenAI with Python
 
-Welcome to my **21 Days of GenAI with Python** repository! This repo documents my daily hands-on journey learning Generative AI engineering, from foundational API calls and prompt engineering to building production-grade LLM applications with memory, databases, and modern frameworks.
+Welcome to my **Days of GenAI with Python** repository! This repo documents my daily hands-on journey learning Generative AI engineering, from foundational API calls and prompt engineering to building production-grade LLM applications with memory, databases, and modern frameworks.
 
 ---
 
